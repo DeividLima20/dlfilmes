@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--metasTags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!--LInks-->
+    <link rel="shortcut icon" href="images/icon/istockphoto-968524290-170667a-removebg-preview.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Title-->
+    <title>DLFILMES - Formulário de Cadastro e Login</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="menu">
+                <div class="logo">
+                    <h1><span class="red white">dl</span>filmes</h1>
+                </div><!--logo-->
+                <div class="menu-mobile">
+                    <i class="fa fa-bars"></i>
+                    <ul>
+                        <li><a href="" class="clickColor" id="home">Home</a></li>
+                        <li><a href="#Filmes" id="clickFilmes1">Filmes/Series</a></li>
+                        <li><a href="#Entrar" id="clickEntrar1"><span class="red">Entrar</span></a></li>
+                        <li><a href="#Cadastro" id="clickCadastro1">Cadastre - se</a></li>
+                    </ul>
+                </div><!--menu-desktop-->
+                <div class="menu-desktop">
+                    <ul>
+                        <li><a href="" class="clickColor" id="home">Home</a></li>
+                        <li><a href="#filmes" id="clickFilmes">Filmes/Series</a></li>
+                        <li><a href="#Entrar" id="clickEntrar" ><span class="red" >Entrar</span></a></li>
+                        <li><a href="#Cadastro" id="clickCadastro">Cadastre - se</a></li>
+                    </ul>
+                </div><!--menu-desktop-->
+            </div><!--menu-->
+        </div><!--container-->
+        <div class="clear"></div>
+    </header>
+    
+    <div class="home" >
+        <div class="container">
+            <div class="formularios">
+                <div class="container">
+                    <div class="mudar-form"><span class="bolinha"><i class="fa fa-user-plus" aria-hidden="true"></i></span><span id="span"></span></div>
+                    <div class="cadastro">
+                        <h1>Faça seu Cadastro!</h1>
+                        <form method="post">
+                            <label>Usuario:</label>
+                            <input type="text" id="user" name="user" placeholder="Nome de usuario...">
+                            <label>E-mail:</label>
+                            <input type="email" name="email" id="email" placeholder="Digite seu Email..." >
+                            <label>Senha:</label>
+                            <input type="password" name="senha" id="senha" placeholder="Digite sua Senha..." >
+                            <button  id="cadastrar" name="acao" type="button">Cadastrar</button>
+                        </form>
+                    </div><!--cadastro-->
+                    <div class="login">
+                        <h1>Faça seu Login!</h1>
+                        <form method="post">
+                            <label>Usuario ou E-mail:</label>
+                            <input type="text" id="login1" name="email-login" placeholder="Nome de usuario ou seu e-mail...">
+                            <label>Senha:</label>
+                            <input type="password" id="login2" name="senha-login" placeholder="Digite sua Senha..." >
+                            <button type="submit" id="entrar">Entrar</button><br>
+                            <span>Não fez o cadastro?</span><a id="clickA" href="#">cadastre-se</a>
+                        </form>
+                    </div><!--login-->
+                </div><!--contianer-->
+                <div class="clear"></div>
+            </div><!--formularios-->
+            <div class="scroll-filmes"><i class="fa fa-arrow-down"></i></div><!--scroll-filmes-->
+            <div class="chamada">
+                <h1>Assista diversos filmes e series Gratuitamente!</h1>
+                <p>temos diversos filmes e series totalmente de graça, todos os lançamentos,
+                    <br>filmes de cinema, netflix, amazon prime e etc...
+                </p>
+                <input type="button" value="Assinar Agora!" id="assinar">
+            </div><!--chamada-->
+            
+        </div><!--container-->
+    </div><!--home-->
+    <div class="filmes-chamada">
+        <h1 id="filmes">Filmes e Series</h1>
+        <div class="container">
+            <div class="filme-single">
+                <div class="filme-wraper">
+                    <div class="img-filme" style="background-image: url(images/capa-filme-login/mrRobot.jpg);"></div>
+                    <h3>MR. robbot</h3>
+                    <span >
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </span>
+                </div><!--filme-wraper-->
+                <div class="filme-wraper">
+                    <div class="img-filme" style="background-image: url(images/capa-filme-login/guardioes-da-galaxia.jpg);"></div>
+                    <h3>guardiões da galáxia</h3>
+                    <span >
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </span>
+                </div><!--filme-wraper-->
+                <div class="filme-wraper">
+                    <div class="img-filme" style="background-image: url(images/capa-filme-login/a-rede-social.jpg);"></div>
+                    <h3>A rede social</h3>
+                    <span >
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" id="gray"></i>
+                    </span>
+                </div><!--filme-wraper-->
+                <div class="filme-wraper">
+                    <div class="img-filme" style="background-image: url(images/capa-filme-login/friends.jpg);"></div>
+                    <h3>Friends</h3>
+                    <span >
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </span>
+                </div><!--filme-wraper-->
+                <div class="filme-wraper">
+                    <div class="img-filme" style="background-image: url(images/capa-filme-login/vikings.jpg);"></div>
+                    <h3>Vikings</h3>
+                    <span >
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                    </span>
+                </div><!--filme-wraper-->
+                <div class="filme-wraper">
+                    <div class="img-filme" style="background-image: url(images/capa-filme-login/ted-lasso.jpg);"></div>
+                    <h3>Ted lasso</h3>
+                    <span >
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </span>
+                </div><!--filme-wraper-->
+            </div><!--filme-single-->
+        </div><!--container-->
+    </div><!--filmes-chamada-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
