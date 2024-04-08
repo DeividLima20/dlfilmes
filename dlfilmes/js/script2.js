@@ -112,10 +112,5 @@ window.onload = function(){
                 })
         }
     })
-    }
-
-    
-    
-   
-   
+    }  
 }
