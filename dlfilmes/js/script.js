@@ -215,6 +215,7 @@ window.onload = function(){
                 $('.menu-mobile ul').fadeOut()
                 bolinha.css('left', '60%');
                 bolinha.css('transition', '1s');
+                $(icon).removeClass('fa-user-plus').addClass('fa-sign-in');
                 cadastro.fadeOut();
                 bolinha.click(() => {
                     bolinha.css('left', '60%');
@@ -280,8 +281,4 @@ window.onload = function(){
 
         
     }
-    
-    
-
-
 };
